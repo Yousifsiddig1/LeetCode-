@@ -10,3 +10,10 @@ class Solution:
             "D": 500,
             "M": 1000
         }
+        num = 0
+        s = s.replace("IV", "IIII").replace("IX", "VIIII")
+        s = s.replace("XL", "XXXX").replace("XC", "LXXXX")
+        s = s.replace("CD", "CCCC").replace("CM", "DCCCC")
+        for i in s:
+            num += chars[i]
+        return num
