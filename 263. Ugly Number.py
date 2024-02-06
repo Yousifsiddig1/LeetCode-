@@ -1,3 +1,4 @@
+https://leetcode.com/problems/ugly-number/description/
 class Solution:
     def isUgly(self, n: int) -> bool:
         # An ugly number is a positive integer which does not have a prime factor other than 2, 3, and 5.
